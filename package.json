@@ -1,0 +1,21 @@
+{
+  "name": "zdz01-theme",
+  "displayName": "zdz01-theme",
+  "description": "zdz first theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zdz01 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zdz01 Theme-color-theme.json"
+      }
+    ]
+  }
+}
