@@ -45,5 +45,7 @@ npm version $VERSION --message "refactor: 版本 v$VERSION 发布" --allow-same-
 # push
 git push origin master && git push origin -f --tags
 
+vsce package
+
 vsce publish
 
